@@ -41,7 +41,7 @@ figure {
 }
 
 p {
-  margin: 0;
+  margin: 0 auto;
   padding: functions.spacing(4);
 }
 /*------------------------------------
@@ -52,6 +52,11 @@ p {
   justify-content: center;
   margin: 0 auto;
   text-align: center;
+}
+
+.layout__text {
+  // max-width: 1100px;
+  margin: 0 200;
 }
 
 /*------------------------------------
